@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  cassandra:
+    keyspace-name: orderflow_inventory
+    contact-points: localhost
+    port: 9042
+    local-datacenter: datacenter1
+    schema-action: create_if_not_exists
