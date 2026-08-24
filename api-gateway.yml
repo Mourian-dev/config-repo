@@ -4,6 +4,11 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: create-order-saga
+          uri: lb://saga-orchestrator
+          predicates:
+            - Path=/orders
+            - Method=POST
         - id: order-service
           uri: lb://order-service
           predicates:
