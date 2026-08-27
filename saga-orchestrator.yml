@@ -3,4 +3,4 @@ server:
 
 saga:
   payment:
-    auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYWdhLW9yY2hlc3RyYXRvciIsInJvbGVzIjpbIlBBWU1FTlRfV1JJVEUiXSwiaWF0IjoxNzg3NjYzOTg4LCJleHAiOjE3ODc3MDcxODh9.jk-3D-irEUXKazgR_0OejSwdmQbnPLzpna5aTtQNEJs
+    auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYWdhLW9yY2hlc3RyYXRvciIsInJvbGVzIjpbIlBBWU1FTlRfV1JJVEUiXSwiaWF0IjoxNzg3ODM0MjAyLCJleHAiOjE3ODgyNjYyMDJ9.TYrgWXBsuN9YEJj79bUtybxj7BhJFvMrPL88qFjrxYs
