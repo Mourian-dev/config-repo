@@ -13,3 +13,10 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  kafka:
+    producer:
+      properties:
+        spring.json.type.mapping: "orderCancelled:com.orderflow.order.event.OrderCancelledEvent"
+    consumer:
+      properties:
+        spring.json.type.mapping: "stockReleased:com.orderflow.order.event.StockReleasedEvent, paymentRefunded:com.orderflow.order.event.PaymentRefundedEvent"
