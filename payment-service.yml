@@ -17,7 +17,7 @@ spring:
   kafka:
     producer:
       properties:
-        spring.json.type.mapping: "paymentRefundedEvent:com.orderflow.payment.event.PaymentRefundedEvent"
+        spring.json.type.mapping: "paymentRefunded:com.orderflow.payment.event.PaymentRefundedEvent"
     consumer:
       properties:
-        spring.json.type.mapping: "orderCancelledEvent:com.orderflow.payment.event.OrderCancelledEvent"
+        spring.json.type.mapping: "orderCancelled:com.orderflow.payment.event.OrderCancelledEvent"
